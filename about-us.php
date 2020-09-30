@@ -16,7 +16,7 @@
 		<link rel="shortcut icon" href="admin/assets/images/favicon.ico" />
 
 		<meta charset="utf-8" />
-		<title><?php echo $APP_NAME; ?> - About us</title>
+		<title>About Us, Our Vision And History - DominoRewards</title>
 		<meta name="description" content="Our company started in 2020, with a mission of providing you with our best service and help you earn your favorite gift cards, while protecting you from any scam that may occur">
 
 	    <?php include_once 'includes/global_header_scripts.php'; ?>

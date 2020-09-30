@@ -44,6 +44,28 @@ $configsMain = new functions($dbo);
                     <span class="icon-thumbnail"><i class="dripicons-user-group"></i></span>
                     <span class="title">All Users</span>
                 </a>
+            </li>            
+			
+            <li>
+                <a href="javascript:void(0);" <?php if($container == 'coupons') { echo 'class="have-submenu active"'; }else{ echo 'class="have-submenu"'; } ?>>
+                    <span class="icon-thumbnail"><i class="dripicons-list"></i></span>
+                    <span class="title">Coupons</span>
+                </a>
+                <!--Submenu-->
+                <ul class="sub-menu">
+                    <li>
+                        <a href="coupons.php" <?php if($pagename == 'coupons') { echo 'class="active"'; } ?>>
+                            <span class="icon-thumbnail"  style="margin-right: 5px;"><i class="ion-ios-bolt-outline"></i></span>
+                            <span class="title">All Coupons</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="add-coupons.php" <?php if($pagename == 'add-coupons') { echo 'class="active"'; } ?>>
+                            <span class="icon-thumbnail"  style="margin-right: 5px;"><i class="ion-ios-bolt-outline"></i></span>
+                            <span class="title">Add Coupon</span>
+                        </a>
+                    </li>
+                </ul>
             </li>
 			
             <li>

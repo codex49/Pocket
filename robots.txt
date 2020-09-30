@@ -1,2 +1,3 @@
+Sitemap: http://www.dominorewards.com/sitemap.xml
 User-agent: * 
-Crawl-Delay: 20
+Disallow: /admin/

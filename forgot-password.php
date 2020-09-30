@@ -9,8 +9,12 @@
 
 	<!-- begin::Head -->
 	<head>
-	    <?php include_once 'includes/dashboard_title.php'; ?>
-	    
+		<link rel="shortcut icon" href="admin/assets/images/favicon.ico ?>" />
+
+		<meta charset="utf-8" />
+		<title>Forgot password - DominoRewards</title>
+		<meta name="description" content="Did you forget your password? We got you covered! Simply reset it by sending a reset link to the email address of your account.">
+				
 	    <?php include_once 'includes/global_header_scripts.php'; ?>
 	    
 		<!--begin::Page Custom Styles(used by this page) -->
@@ -63,7 +67,7 @@
 							<!--begin::Signin-->
 							<div class="kt-login__form">
 								<div class="kt-login__title">
-									<h3>Reset Password</h3>
+									<h1>Reset Password</h1>
 								</div>
 								
 								<?php if ($error){ ?>

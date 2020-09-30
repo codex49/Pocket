@@ -106,7 +106,7 @@
 						<?php } ?>
                         <p class="logo mb-1">Admin Login</p>
                         <p class="mb-4" style="color: #a5b5c5">Sign into your <?php echo $configs->getConfig('APP_NAME'); ?> Dashboard</p>
-                        <form id="needs-validation" action="login" method="post" novalidate="" />
+                        <form id="needs-validation" action="login" method="post" novalidate="">
                             <input autocomplete="off" type="hidden" name="authenticity_token" value="<?php echo helper::getAuthenticityToken(); ?>">
 							<div class="form-group">
                                 <label>Login</label>

@@ -17,7 +17,12 @@
 
 	<!-- begin::Head -->
 	<head>
-	    <?php include_once 'includes/dashboard_title.php'; ?>
+		<link rel="shortcut icon" href="admin/assets/images/favicon.ico ?>" />
+
+		<meta charset="utf-8" />
+		<title>Login - DominoRewards</title>
+		<meta name="description" content="Welcome back to DominoRewards ! Sign in and start earning free gift cards,">
+				
 	    
 	    <?php include_once 'includes/global_header_scripts.php'; ?>
 	    
@@ -69,7 +74,7 @@
 							<!--begin::Signin-->
 							<div class="kt-login__form">
 								<div class="kt-login__title">
-									<h3>Sign In</h3>
+									<h1>Sign In</h1>
 								</div>
 								
 								<?php if ($error){ ?>

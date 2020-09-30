@@ -1973,8 +1973,23 @@ var KTDashboard=function() {
 }
 
 ();
-jQuery(document).ready(function() {
-    KTDashboard.init()
-}
+    jQuery(document).ready(function() {
+        KTDashboard.init();
 
+        $('.coupon-first').on('click', function() {
+            $(this).parents('.coupons-item').addClass('coupons-item_unlocked');
+        });
+
+        $('.coupon-lock').on('click', function() {
+            const prize = $(this).parents('.coupons-item').find('.coupons-item_lock').text().trim();
+
+            $('.coupons-redeem_input').val(prize).focus();
+
+            $('html, body').animate({
+                scrollTop: $(".coupons").offset().top
+            }, 500);
+
+            console.log('coupon-lock', prize);
+        });
+    }
 );
